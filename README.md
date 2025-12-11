@@ -4,6 +4,12 @@
 # Описание проекта
 Система позволяет управлять данными о выставках, посетителях и проданных билетах. Реализованы все базовые CRUD-операции, а также аналитические запросы для получения статистики. Приложение использует паттерн Facade для упрощения взаимодействия с базой данных и предоставляет удобный консольный интерфейс.
 
+## Диаграмма классов 
+<img width="883" height="667" alt="dot_inline_dotgraph_1" src="https://github.com/user-attachments/assets/cad8f18c-cf8b-4f1c-86f9-d45419c5c88c" />
+## Цикл работы
+<img width="1032" height="401" alt="dot_inline_dotgraph_2" src="https://github.com/user-attachments/assets/80ce3809-45a2-401c-a027-65a5b8d5ab94" />
+
+
 ## Архитектура проекта
 ```text
 TicketBookingSystem/
@@ -28,6 +34,9 @@ TicketBookingSystem/
 - PostgreSQL база данных
 - Файл конфигурации config.txt в папке Presentation/files/
 
+## Схема базы данных
+<img width="685" height="299" alt="dot_inline_dotgraph_3" src="https://github.com/user-attachments/assets/0a9691d9-994f-4b8e-9dea-77644533e604" />
+
 ## Настройка подключения к базе данных
 Создайте файл config.txt в папке Presentation/files/ со следующим содержимым:
 
@@ -48,6 +57,7 @@ dotnet build
 # Запуск
 dotnet run --project Presentation
 ```
+
 ## Функциональность
 ### Основные возможности:
 **`Управление посетителями`**
