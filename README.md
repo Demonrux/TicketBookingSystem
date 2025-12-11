@@ -6,6 +6,7 @@
 
 ## Диаграмма классов 
 <img width="883" height="667" alt="dot_inline_dotgraph_1" src="https://github.com/user-attachments/assets/cad8f18c-cf8b-4f1c-86f9-d45419c5c88c" />
+
 ## Цикл работы
 <img width="1032" height="401" alt="dot_inline_dotgraph_2" src="https://github.com/user-attachments/assets/80ce3809-45a2-401c-a027-65a5b8d5ab94" />
 
