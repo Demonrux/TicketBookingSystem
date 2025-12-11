@@ -1,0 +1,5 @@
+﻿host=localhost
+port=5432
+database=exhibitiondb
+username=postgres
+password=postgres
