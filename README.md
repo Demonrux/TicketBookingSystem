@@ -86,12 +86,14 @@ dotnet run --project Presentation
 
 ## Ключевые классы
 **`DatabaseFacade`**
+
 Назначение: Основной класс для работы с базой данных, реализующий паттерн Facade
 Основные методы:
 - CRUD-операции для всех сущностей (Visitor, Exhibition, Ticket)
 - Аналитические методы: GetSoldTicketsCount(), GetUniqueExhibitionsCount(), GetAverageDiscountForExhibition()
 
 **`ApplicationContext`**
+
 Назначение: Контекст Entity Framework для работы с базой данных
 Особенности:
 - Настройка отношений между сущностями
@@ -99,6 +101,7 @@ dotnet run --project Presentation
 - Поддержка PostgreSQL через Npgsql
 
 **`DatabaseConfig`**
+
 Назначение: Загрузка конфигурации подключения к БД из файла
 Особенности:
 - Валидация обязательных параметров
